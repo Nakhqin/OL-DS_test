@@ -1,0 +1,6 @@
+{
+  "command": "npm run storybook",
+  "serverUrl": "http://localhost:6006",
+  "authenticateProxy": false,
+  "commitMode": "commits"
+}
