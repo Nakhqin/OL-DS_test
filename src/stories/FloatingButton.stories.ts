@@ -2,17 +2,17 @@ import type { Meta, StoryObj } from '@storybook/react-vite';
 
 import { fn } from 'storybook/test';
 
-import { EditButton } from './EditButton';
+import { FloatingButton } from './FloatingButton';
 
 const meta = {
-  title: 'Example/EditButton',
-  component: EditButton,
+  title: 'Example/FloatingButton',
+  component: FloatingButton,
   parameters: {
     layout: 'centered',
   },
   tags: ['autodocs'],
   args: { onClick: fn() },
-} satisfies Meta<typeof EditButton>;
+} satisfies Meta<typeof FloatingButton>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;

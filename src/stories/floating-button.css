@@ -1,4 +1,4 @@
-.edit-button {
+.floating-button {
   display: inline-flex;
   padding: 9px;
   align-items: flex-start;
@@ -6,7 +6,7 @@
   height: 92px;
 }
 
-.edit-button__circle {
+.floating-button__circle {
   display: flex;
   width: 74px;
   height: 74px;
@@ -23,60 +23,60 @@
   font: inherit;
 }
 
-.edit-button--light .edit-button__circle {
+.floating-button--light .floating-button__circle {
   background: #E0B400;
 }
 
-.edit-button--dark .edit-button__circle {
+.floating-button--dark .floating-button__circle {
   background: #B08D00;
 }
 
-.edit-button--light.edit-button--enabled .edit-button__circle:hover {
+.floating-button--light.floating-button--enabled .floating-button__circle:hover {
   background: #BF9900;
 }
 
-.edit-button--dark.edit-button--enabled .edit-button__circle:hover {
+.floating-button--dark.floating-button--enabled .floating-button__circle:hover {
   background: #BF9900;
 }
 
-.edit-button--light.edit-button--enabled .edit-button__circle:focus {
+.floating-button--light.floating-button--enabled .floating-button__circle:focus {
   background: #B08D00;
   outline: none;
 }
 
-.edit-button--dark.edit-button--enabled .edit-button__circle:focus {
+.floating-button--dark.floating-button--enabled .floating-button__circle:focus {
   background: #B08D00;
   outline: none;
 }
 
-.edit-button--light.edit-button--enabled .edit-button__circle:active {
+.floating-button--light.floating-button--enabled .floating-button__circle:active {
   background: #B08D00;
 }
 
-.edit-button--dark.edit-button--enabled .edit-button__circle:active {
+.floating-button--dark.floating-button--enabled .floating-button__circle:active {
   background: #B08D00;
 }
 
-.edit-button--light.edit-button--disabled .edit-button__circle {
+.floating-button--light.floating-button--disabled .floating-button__circle {
   background: #E0B400;
   opacity: 0.4;
   cursor: not-allowed;
 }
 
-.edit-button--dark.edit-button--disabled .edit-button__circle {
+.floating-button--dark.floating-button--disabled .floating-button__circle {
   background: #B08D00;
   opacity: 0.4;
   cursor: not-allowed;
 }
 
-.edit-button__icon {
+.floating-button__icon {
   width: 32px;
   height: 32px;
   flex-shrink: 0;
   position: relative;
 }
 
-.edit-button__icon-bounds {
+.floating-button__icon-bounds {
   width: 32px;
   height: 32px;
   flex-shrink: 0;
@@ -85,7 +85,7 @@
   top: 0;
 }
 
-.edit-button__icon-shape {
+.floating-button__icon-shape {
   width: 25px;
   height: 26px;
   flex-shrink: 0;
